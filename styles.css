@@ -116,6 +116,19 @@ body {
     background-color: white;
 }
 
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    color: crimson;
+    font-family: "papyrus", cursive;
+}
+
 .winning-message {
     display: none;
     position: fixed;
