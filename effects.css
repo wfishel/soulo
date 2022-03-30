@@ -1,0 +1,27 @@
+body {
+    font-size: 45px;
+    color: whitesmoke;
+    background-image: url(https://media.istockphoto.com/vectors/the-inverted-pentagram-circumscribed-by-a-circle-is-often-used-to-vector-id1224308577?k=20&m=1224308577&s=170667a&w=0&h=CKjEUhnKBloaI0vjzO0AwYsZXd3GbAapgep2vXmY8Vw=);
+    background-size: cover;
+    font-family: "papyrus", cursive;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#game {
+    border-style: solid;
+}
+
+h1 {
+    color: crimson;
+}
+
+#options {
+    display: flex;
+    justify-content: space-around;
+}
