@@ -1,0 +1,43 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.incantation {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-style: double;
+    border-width: 5px;
+    padding: 10px;
+}
+
+.finePrint {
+    font-size: small;
+}
+
+#gold {
+    color: gold;
+}
+
+#silver {
+    color: silver;
+}
+
+#bronze {
+    color: brown;
+}
+
+#clickers {
+    size: large;
+}
